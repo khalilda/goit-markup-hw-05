@@ -381,6 +381,7 @@ img {
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
+    transition: fill var(--transition-dur-and-func);
 }
 
 .team-social-link:is(:hover, :focus) {
@@ -582,7 +583,8 @@ img {
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-     color: #8E8F99;
+    color: #8E8F99;
+    transition: fill var(--transition-dur-and-func);
 }
 
 .customers-link:hover,
@@ -685,6 +687,7 @@ img {
     height: 100%;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: fill var(--transition-dur-and-func);
 }
 
 .footer-social-link:is(:hover, :focus) {
